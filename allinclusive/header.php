@@ -10,8 +10,8 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="">
     <!-- styles -->
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/vendor/bootstrap/3.3.1/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css">
     <!-- fonts -->
     <link rel="stylesheet" href="">    
     <!--[if IE]>
@@ -21,5 +21,6 @@
     <!--[if lt IE 9]>
     <p class="browsehappy">Вы используете <strong>устаревшую</strong> версию браузера, поэтому страница может работать некорректно. Обновить браузер можно <a href="http://browsehappy.com/">по этой ссылке</a> или перейти на сайт http://browsehappy.com</p>
     <![endif]-->
+    <?php wp_head(); ?>
 </head>
 <body> 
