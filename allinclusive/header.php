@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
-    <meta charset="UTF-8">    
-    <!-- delete if non-responsive / start -->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- delete if non-responsive / end -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Some Title</title>
+    <title>allinclusive.kiev.ua</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="">
     <!-- styles -->
@@ -24,33 +23,3 @@
     <![endif]-->
 </head>
 <body> 
-
-    <!-- / start -->
-    <header class="">
-    
-    </header>
-    <!-- / end -->
-    
-    <!-- ---------------------------------------------------- -->
-    
-    <!-- / start -->
-    <section class="">
-    
-    </section>
-    <!-- / end -->    
-    
-    <!-- ---------------------------------------------------- -->
-    
-    <!-- / start -->
-    <footer class="">
-    
-    </footer>
-    <!-- / end -->
-    
-    <!-- latest jquery version -->
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <!-- bootstrap js -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    
-</body>
-</html>
