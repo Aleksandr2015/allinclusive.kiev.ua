@@ -1,0 +1,44 @@
+/*
+* header_basic
+*/
+
+.header_basic {
+    &_wrap {
+        position: relative;
+        height: 600px;
+        &__logo {
+            position: absolute;
+            top: 5%;
+            left: 34%;
+            font-size: 240%;
+            font-weight: 800;
+            line-height: 65%;
+            text-shadow: 1px 1px 1px #fff;
+            &___text {
+                font-size: 26%;
+                letter-spacing: 1.3px;
+                text-transform: uppercase;
+                text-shadow: none;                
+            }
+        }
+        &__phones {
+            position: absolute;
+            right: 3%;
+            top: 4%;
+            text-shadow: 1px 1px 1px #fff;
+            & p {
+                margin-bottom: 0;
+                font-size: 180%;
+                line-height: 110%;
+            }
+        }
+        &__slogan {
+            position: absolute;
+            bottom: 6%;
+            left: 34%;
+            font-size: 160%;
+            text-shadow: 1px 1px 1px #000;
+            color: #fff;
+        }
+    }
+}
