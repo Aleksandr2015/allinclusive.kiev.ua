@@ -19,15 +19,15 @@ get_header();
     <section class="contacts">
         <div class="container">
             <div class="row">
-                <div class="col-xs-6">
-                    <?php# get_field('contact_form'); ?>
+                <div class="col-xs-6 text-center">
+                    <h2>Напишите нам:</h2>
                     <?php
-                     $formCode = get_field('contact_form');
-                     echo $formCode;
+                        $formCode = get_field('contact_form');
+                        echo $formCode;
                     ?> 
                 </div>
-                <div class="col-xs-6">
-                    <h2>Контактые телефоны:</h2>
+                <div class="col-xs-6 text-center">
+                    <h2>Позвоните нам:</h2>
                     <p>+38 (096) 707-59-70</p>
                     <p>+38 (093) 573-76-66</p>
                 </div>

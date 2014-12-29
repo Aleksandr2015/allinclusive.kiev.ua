@@ -9,5 +9,7 @@
 
 /* disable default bootstrap form input box shadow on focus */
 .form-control:focus {
-     box-shadow: none !important;
+    box-shadow: none !important;
+    border-color: #ccc;
 }
+

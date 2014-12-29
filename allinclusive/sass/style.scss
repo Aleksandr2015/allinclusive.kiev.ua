@@ -1,3 +1,6 @@
+//basic styles
+@import "base/reset";
+
 // -> Bootstrap base disable if no need
     // styles for print
     @import "../vendor/bootstrap/print";
@@ -8,5 +11,8 @@
 @import "core";
 
 // -> Project parts styles
-//@import "/project/___";
+@import "project/08_contacts";
+@import "project/02_about_us";
+@import "project/09_footer";
+
 
