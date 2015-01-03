@@ -77,7 +77,7 @@ a:hover, a:active, a:focus {
 */
 .header_basic_wrap {
   position: relative;
-  height: 600px;
+  height: 500px;
 }
 .header_basic_wrap__logo {
   position: absolute;
