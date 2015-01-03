@@ -43,6 +43,10 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
+.navbar-brand {
+  font-style: italic;
+}
+
 /*
 * contacts
 */
@@ -58,6 +62,16 @@ a:hover, a:active, a:focus {
 /*
 * about_us
 */
+.about_us_text {
+  margin-bottom: 20px;
+}
+.about_us_item {
+  padding-bottom: 10px;
+}
+.about_us_item:hover {
+  background-color: #bbada2;
+  background-color: rgba(187, 173, 162, 0.2);
+}
 .about_us_item__title {
   font-weight: 800;
   margin-bottom: 20px;

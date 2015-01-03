@@ -40,10 +40,7 @@ get_header();
             
             <!-- item 1 -->
             <div class="about_us_item text-center">                
-                <div class="row">
-                    <div class="col-xs-12">
-                        <hr>
-                    </div>                    
+                <div class="row">                    
                     <div class="col-xs-2">
                         <div class="about_us_item__title">
                             Фото
@@ -89,10 +86,7 @@ get_header();
             
             <!-- item 2 -->
             <div class="about_us_item text-center">                
-                <div class="row">
-                    <div class="col-xs-12">
-                        <hr>
-                    </div>                    
+                <div class="row">                                      
                     <div class="col-xs-2">
                         <div class="about_us_item__title">
                             Фото
@@ -139,9 +133,6 @@ get_header();
             <!-- item 3 -->
             <div class="about_us_item text-center">                
                 <div class="row">
-                    <div class="col-xs-12">
-                        <hr>
-                    </div>                    
                     <div class="col-xs-2">
                         <div class="about_us_item__title">
                             Фото
@@ -187,10 +178,7 @@ get_header();
             
             <!-- item 4 -->
             <div class="about_us_item text-center">                
-                <div class="row">
-                    <div class="col-xs-12">
-                        <hr>
-                    </div>                    
+                <div class="row">                  
                     <div class="col-xs-2">
                         <div class="about_us_item__title">
                             Фото
@@ -237,9 +225,6 @@ get_header();
             <!-- item 5 -->
             <div class="about_us_item text-center">                
                 <div class="row">
-                    <div class="col-xs-12">
-                        <hr>
-                    </div>                    
                     <div class="col-xs-2">
                         <div class="about_us_item__title">
                             Фото
