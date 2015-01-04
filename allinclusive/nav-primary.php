@@ -1,7 +1,7 @@
 <div class="container">
 
 
-     <nav class="navbar navbar-default" role="navigation">
+     <nav class="navbar navbar-default nav_primary" role="navigation">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">

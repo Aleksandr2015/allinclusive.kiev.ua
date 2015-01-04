@@ -12,6 +12,8 @@
     <!-- styles -->
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/vendor/bootstrap/3.3.1/css/bootstrap.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css">
+    <!-- font-awesome icons -->
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/vendor/font-awesome-4.2.0/css/font-awesome.css">
     <!-- fonts -->
     <link rel="stylesheet" href="">    
     <!--[if IE]>

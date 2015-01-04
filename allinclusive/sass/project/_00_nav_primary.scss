@@ -1,3 +1,15 @@
-.navbar-brand {
-    font-style: italic;
+/*
+* nav_primary
+*/
+
+
+.nav_primary {
+    border-radius: 0 !important;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-width: 0px !important;
+    margin-bottom: 5px !important;
+    & .navbar-brand {
+        font-style: italic;
+    }
 }
