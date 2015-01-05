@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css">
     <!-- font-awesome icons -->
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/vendor/font-awesome-4.2.0/css/font-awesome.css">
-    <!-- fonts -->
-    <link rel="stylesheet" href="">    
+    <!-- latest jquery version -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>    
     <!--[if IE]>
         <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>

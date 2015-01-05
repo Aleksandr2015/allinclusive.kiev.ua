@@ -2,7 +2,9 @@
         <div class="container">                        
             <div class="row">
                 <div class="col-xs-12 header_basic_wrap">
-                    <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/header-basic.jpg" alt="">
+                    <!-- slider_in_header_basic / start -->
+                    <?php include (TEMPLATEPATH . '/slider-in-header-basic.php'); ?>
+                    <!-- slider_in_header_basic / end -->
                     <div class="header_basic_wrap__logo">
                         All inclusive<br>
                         <span class="header_basic_wrap__logo___text">студия интерьерного дизайна</span>

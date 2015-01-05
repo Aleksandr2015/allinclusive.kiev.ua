@@ -11,7 +11,11 @@ get_header();
    
     <!-- nav_primary / start -->
     <?php include (TEMPLATEPATH . '/nav-primary.php'); ?>
-    <!-- nav_primary / end -->   
+    <!-- nav_primary / end -->
+
+    <!-- nav_secondary/ start -->
+    <?php include (TEMPLATEPATH . '/nav-secondary.php'); ?>
+    <!-- nav_secondary / end -->
     
     <!-- ------------------------- content / start --------------------------- -->
     
