@@ -18,6 +18,20 @@
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <!-- bootstrap js -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>    
+    <!-- slider -->    
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/vendor/unslider/unslider.css">
+    <script src="//unslider.com/unslider.min.js"></script>
+    <script>
+        $(function() {
+            $('.banner').unslider({
+                speed: 900,               //  The speed to animate each slide (in milliseconds)
+                delay: 5000,              //  The delay between slide animations (in milliseconds)                
+                keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+                dots: true,               //  Display dot navigation
+                fluid: true              //  Support responsive design. May break non-responsive designs
+            });
+        });
+    </script>
     <!--[if IE]>
         <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>

@@ -4,6 +4,8 @@
 
 
 .nav_secondary {
+    position: relative;
+    z-index: 999;
     border-radius: 0 !important;
     margin-right: 10px;
     margin-left: 10px;

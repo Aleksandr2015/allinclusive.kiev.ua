@@ -47,6 +47,8 @@ a:hover, a:active, a:focus {
 * nav_primary
 */
 .nav_primary {
+  position: relative;
+  z-index: 999;
   border-radius: 0 !important;
   margin-right: 10px;
   margin-left: 10px;
@@ -61,6 +63,8 @@ a:hover, a:active, a:focus {
 * nav_secondary
 */
 .nav_secondary {
+  position: relative;
+  z-index: 999;
   border-radius: 0 !important;
   margin-right: 10px;
   margin-left: 10px;
@@ -93,10 +97,13 @@ a:hover, a:active, a:focus {
 }
 
 /*
+* slider_in_header_basic
+*/
+/*
 * header_basic
 */
 .header_basic {
-  margin-bottom: -110px;
+  margin-bottom: -100px;
 }
 .header_basic_wrap {
   position: relative;
@@ -132,7 +139,7 @@ a:hover, a:active, a:focus {
 }
 .header_basic_wrap__slogan {
   position: absolute;
-  bottom: 25%;
+  bottom: 22%;
   left: 34%;
   font-size: 170%;
   line-height: 100%;
