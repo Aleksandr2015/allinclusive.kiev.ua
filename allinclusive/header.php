@@ -22,15 +22,15 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/vendor/unslider/unslider.css">
     <script src="//unslider.com/unslider.min.js"></script>
     <script>
-        $(function() {
-            $('.banner').unslider({
-                speed: 900,               //  The speed to animate each slide (in milliseconds)
-                delay: 5000,              //  The delay between slide animations (in milliseconds)                
-                keys: true,               //  Enable keyboard (left, right) arrow shortcuts
-                dots: true,               //  Display dot navigation
-                fluid: true              //  Support responsive design. May break non-responsive designs
-            });
-        });
+        $( window ).load(function() {
+                $('.banner').unslider ({
+                    speed: 900,               //  The speed to animate each slide (in milliseconds)
+                    delay: 5000,              //  The delay between slide animations (in milliseconds)                                
+                    keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+                    dots: true,               //  Display dot navigation
+                    fluid: true,              //  Support responsive design. May break non-responsive designs
+                });
+            });        
     </script>
     <!--[if IE]>
         <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
