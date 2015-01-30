@@ -1,0 +1,116 @@
+			.carousel,.carousel2,.carousel3 {
+				width: 90%;
+				position:relative;
+        display: block;
+        margin: 0 auto;
+			}
+			.carousel ul,.carousel2 ul, .carousel3 ul {        
+				list-style: none;
+				display: block;
+				margin: 0;				
+			}
+			.carousel li,.carousel2 li,.carousel3 li {
+/*				background: transparent url(img/carousel_polaroid.png) no-repeat 0 0;*/
+/*				font-size: 40px;*/
+/*				color: #999;*/
+				text-align: center;
+				display: block;
+				width: 220px;
+				height: 220px;
+				padding: 0;
+				margin-right: 20px;
+				float: left;
+				position: relative;
+			}
+			.carousel li img,.carousel2 li img, .carousel3 li img {
+				width: 100%;
+				height: 100%;
+				margin-top: 14px;
+			}						
+			.carousel .prev, .carousel2 .prev, .carousel3 .prev,
+      .carousel .next, .carousel2 .next, .carousel3 .next {
+				background: transparent url(img/carousel_control.png) no-repeat 0 0;
+				font-size: 0;
+				display: block;
+				overflow: hidden;
+				width: 15px;
+				height: 21px;
+/*				margin-left: 10px;*/
+				position: absolute;
+				top: 100px;				
+			}
+			.carousel .prev, .carousel2 .prev, .carousel3 .prev {
+				background-position: 0 0;
+				left: -30px;
+			}
+			.carousel .prev:hover, .carousel2 .prev:hover, .carousel3 .prev:hover {
+				left: -31px;
+			}			
+			.carousel .next, .carousel2 .next, .carousel3 .next {
+				background-position: -18px 0;
+				right: -30px;
+			}
+			.carousel .next:hover, .carousel2 .next:hover, .carousel3 .next:hover {
+				right: -31px;
+			}				
+			.carousel .pagination, .carousel2 .pagination, .carousel3 .pagination {
+				text-align: center;
+				margin: 0 auto;
+			}
+			.carousel .pagination a, .carousel2 .pagination a, .carousel3 .pagination a {
+				background: transparent url(img/carousel_control.png) no-repeat -2px -32px;
+				text-decoration: none;
+				text-indent: -999px;
+				display: inline-block;
+				overflow: hidden;
+				width: 8px;
+				height: 8px;
+				margin: 0 5px 0 0;
+			}
+			.carousel .pagination a.selected, .carousel2 .pagination a.selected, .carousel3 .pagination a.selected {
+				background: transparent url(img/carousel_control.png) no-repeat -12px -32px;
+				text-decoration: underline;				
+			}			
+
+
+/*tabs */
+
+#tabs-wrapper {
+	background-color: #fff;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;} 
+#tabs > div {
+	float: left; 
+	width: 900px; 
+	height: auto; 
+	min-height: 550px; 
+	margin: 5px 0; padding: 0; 
+	padding-bottom: 10px; 
+	background: #FFF; color: #000;} 
+#pager {
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	top: 0px;
+	padding: 20px 0;} 
+#pager a {
+	color: #1669FF; 
+	font-size: 20px; 
+	text-decoration: 	none;  
+  padding: 10px 30px; 
+  background: #444; 
+  margin-right: 10px;
+} 
+
+#pager a:hover {
+  color: #FF0000;
+}
+
+#pager a.selected {
+  background-color: #666;
+  color: #ddd;
+  border-bottom: none;
+}
+
+/* tebs / end */
