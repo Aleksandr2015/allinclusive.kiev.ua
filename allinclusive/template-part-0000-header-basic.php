@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-xs-12 header_basic_wrap">
                     <!-- slider_in_header_basic / start -->
-                    <?php include (TEMPLATEPATH . '/slider-in-header-basic.php'); ?>
+                    <?php include (TEMPLATEPATH . '/template-part-0010-slider-in-header-basic.php'); ?>
                     <!-- slider_in_header_basic / end -->
                     <div class="header_basic_wrap__logo">
                         All inclusive<br>

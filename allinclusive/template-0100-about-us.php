@@ -4,17 +4,18 @@ Template Name: О нас
 */
 get_header();
 ?>
+<body class="about-us">
     
     <!-- header_basic / Start -->
-	<?php include (TEMPLATEPATH . '/template-header-basic.php'); ?>
+	<?php include (TEMPLATEPATH . '/template-part-0000-header-basic.php'); ?>
 	<!-- header_basic / End -->
    
     <!-- nav_primary / start -->
-    <?php include (TEMPLATEPATH . '/nav-primary.php'); ?>
+    <?php include (TEMPLATEPATH . '/template-part-0100-nav-primary.php'); ?>
     <!-- nav_primary / end -->
 
     <!-- nav_secondary/ start -->
-    <?php include (TEMPLATEPATH . '/nav-secondary.php'); ?>
+    <?php include (TEMPLATEPATH . '/template-part-0150-nav-secondary.php'); ?>
     <!-- nav_secondary / end -->
     
     <!-- ------------------------- content / start --------------------------- -->

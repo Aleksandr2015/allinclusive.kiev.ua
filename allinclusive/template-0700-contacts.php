@@ -4,23 +4,22 @@ Template Name: Контакты
 */
 get_header();
 ?>
-    
+<body class="contacts">
+       
     <!-- header_basic / Start -->
-	<?php include (TEMPLATEPATH . '/template-header-basic.php'); ?>
+	<?php include (TEMPLATEPATH . '/template-part-0000-header-basic.php'); ?>
 	<!-- header_basic / End -->
    
     <!-- nav_primary / start -->
-    <?php include (TEMPLATEPATH . '/nav-primary.php'); ?>
+    <?php include (TEMPLATEPATH . '/template-part-0100-nav-primary.php'); ?>
     <!-- nav_primary / end -->
 
     <!-- nav_secondary/ start -->
-    <?php include (TEMPLATEPATH . '/nav-secondary.php'); ?>
-    <!-- nav_secondary / end --> 
+    <?php include (TEMPLATEPATH . '/template-part-0150-nav-secondary.php'); ?>
+    <!-- nav_secondary / end -->
     
     <!-- ------------------------- content / start --------------------------- -->
-    
-    <!-- contacts / start -->
-    <section class="contacts">
+        
         <div class="container">
             <div class="row">
                 <div class="col-xs-6 text-center">
@@ -36,10 +35,8 @@ get_header();
                     <p>+38 (093) 573-76-66</p>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- contacts / end -->    
-    
+        </div>        
+        
     <!-- ------------------------- content / end --------------------------- -->
     
 <?php get_footer(); ?>

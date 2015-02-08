@@ -29,6 +29,125 @@ html, body {
   border-color: #ccc;
 }
 
+/* Template-specific stuff
+ *
+ * Customizations just for the template; these are not necessary for anything
+ * with disabling the responsiveness.
+ */
+/* Account for fixed navbar */
+body {
+  min-width: 1170px;
+}
+
+/* Don't let the lead text change font-size. */
+.lead {
+  font-size: 16px;
+}
+
+/* Finesse the page header spacing */
+.page-header {
+  margin-bottom: 30px;
+}
+
+.page-header .lead {
+  margin-bottom: 10px;
+}
+
+/* Non-responsive overrides
+ *
+ * Utilitze the following CSS to disable the responsive-ness of the container,
+ * grid system, and navbar.
+ */
+/* Reset the container */
+.container {
+  width: 1170px;
+  max-width: none !important;
+}
+
+/* disable navbar margins */
+.container .navbar-header,
+.container .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Always float the navbar header */
+.navbar-header {
+  float: left;
+}
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+  visibility: visible !important;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}
+
+/* Always apply the floated nav */
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+
+.navbar-nav > li {
+  float: left;
+}
+
+.navbar-nav > li > a {
+  padding: 15px;
+}
+
+/* Redeclare since we override the float above */
+.navbar-nav.navbar-right {
+  float: right;
+}
+
+/* Undo custom dropdowns */
+.navbar .navbar-nav .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #333;
+}
+
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar .navbar-nav .open .dropdown-menu > .active > a,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #fff !important;
+  background-color: #428bca !important;
+}
+
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  color: #999 !important;
+  background-color: transparent !important;
+}
+
 html, body {
   font-family: 'Palatino Linotype', Book Antiqua, Palatino, serif;
   background: url(../img/crossword.png);
@@ -152,6 +271,127 @@ a:hover, a:active, a:focus {
   text-shadow: 1px 1px 10px #fff;
   color: #000;
   font-style: italic;
+}
+
+/*
+* home-page
+*/
+.home-page {
+  /* tabs */
+  /* carousels */
+  /**/
+}
+.home-page #tabs-wrapper {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+.home-page #tabs > div {
+  float: left;
+  border: 1px solid #c7c7c7;
+  border-width: 0px 1px 1px;
+  background-color: #f1f1f1;
+  padding-top: 20px;
+}
+.home-page #pager {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  top: 0px;
+  padding: 20px 0 0;
+}
+.home-page #pager a {
+  text-decoration: none;
+  color: #999;
+  z-index: 9;
+  position: relative;
+  float: left;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.home-page #pager a:hover {
+  color: #000;
+}
+.home-page #pager a.selected {
+  background: #f1f1f1;
+  color: #000;
+  border: 1px solid #c7c7c7;
+  border-width: 1px 1px 0 1px;
+  padding-bottom: 12px;
+  margin-bottom: -1px;
+  position: relative;
+}
+.home-page .carousel, .home-page .carousel2, .home-page .carousel3 {
+  width: 1026px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+.home-page .carousel ul, .home-page .carousel2 ul, .home-page .carousel3 ul {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.home-page .carousel li, .home-page .carousel2 li, .home-page .carousel3 li {
+  text-align: center;
+  display: block;
+  width: 220px;
+  height: 220px;
+  padding: 0;
+  margin-right: 20px;
+  float: left;
+  position: relative;
+}
+.home-page .carousel li img, .home-page .carousel2 li img, .home-page .carousel3 li img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid  #ccc;
+}
+.home-page .carousel .prev, .home-page .carousel2 .prev, .home-page .carousel3 .prev, .home-page .carousel .next, .home-page .carousel2 .next, .home-page .carousel3 .next {
+  background: transparent url(../img/carousel_control.png) no-repeat 0 0;
+  font-size: 0;
+  display: block;
+  overflow: hidden;
+  width: 15px;
+  height: 21px;
+  position: absolute;
+  top: 100px;
+}
+.home-page .carousel .prev, .home-page .carousel2 .prev, .home-page .carousel3 .prev {
+  background-position: 0 0;
+  left: -30px;
+  opacity: .8;
+}
+.home-page .carousel .prev:hover, .home-page .carousel2 .prev:hover, .home-page .carousel3 .prev:hover {
+  opacity: 1;
+}
+.home-page .carousel .next, .home-page .carousel2 .next, .home-page .carousel3 .next {
+  background-position: -18px 0;
+  right: -30px;
+  opacity: .8;
+}
+.home-page .carousel .next:hover, .home-page .carousel2 .next:hover, .home-page .carousel3 .next:hover {
+  opacity: 1;
+}
+.home-page .carousel .pagination, .home-page .carousel2 .pagination, .home-page .carousel3 .pagination {
+  text-align: center;
+  margin: 0 auto;
+}
+.home-page .carousel .pagination a, .home-page .carousel2 .pagination a, .home-page .carousel3 .pagination a {
+  background: transparent url(../img/carousel_control.png) no-repeat -2px -32px;
+  text-decoration: none;
+  text-indent: -999px;
+  display: inline-block;
+  overflow: hidden;
+  width: 8px;
+  height: 8px;
+  margin: 0 5px 0 0;
+}
+.home-page .carousel .pagination a.selected, .home-page .carousel2 .pagination a.selected, .home-page .carousel3 .pagination a.selected {
+  background: transparent url(img/carousel_control.png) no-repeat -12px -32px;
+  text-decoration: underline;
 }
 
 /*

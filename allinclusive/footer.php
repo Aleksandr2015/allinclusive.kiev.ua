@@ -5,7 +5,7 @@
                 <div class="col-xs-12 text-center">                    
                    <hr>
                     <div class="footer_copy">                        
-                       © 2014 - allinclusive.kiev.ua
+                       © 2015 - allinclusive.kiev.ua
                     </div>                    
                 </div>                
                 <div class="col-xs-12 text-center">                    
@@ -18,7 +18,7 @@
         </div>
     </footer>
     <!-- footer / end -->
-
+        
     <?php wp_footer(); ?>
 </body>
 </html>

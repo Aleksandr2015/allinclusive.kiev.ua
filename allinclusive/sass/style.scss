@@ -6,6 +6,8 @@
     @import "../vendor/bootstrap/print";
     // basic bootstrap reset
     @import "../vendor/bootstrap/bootstrap_reset";    
+    // Disabling the responsiveness to 980px ( comment if want to adaptive )
+    @import "../vendor/bootstrap/non-responsive";
 
 //avg core sass
 @import "core";
@@ -20,7 +22,7 @@
 //@import "project/";
 //@import "project/";
 @import "project/01_header_basic";
-@import "project/01-1_homepage_tabs_slider";
+@import "project/template-0000-home-page";
 @import "project/08_contacts";
 @import "project/02_about_us";
 @import "project/09_footer";
